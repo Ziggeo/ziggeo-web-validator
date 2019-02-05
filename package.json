@@ -1,0 +1,26 @@
+{
+  "name": "ziggeo-web-validator",
+  "description": "Ziggeo Web Validator is a command line tool for web validation.",
+  "version": "0.0.1",
+  "author": "Ziggeo",
+  "repository": "https://github.com/Ziggeo/ziggeo-web-validator",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ""
+  },
+  "bin": {
+    "zwv": "bin/zwv"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "aatt": "git+https://github.com/paypal/AATT.git",
+    "node-getopt": "^0.3.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "xml2js": "^0.4.19"
+  },
+  "files": [
+    "zwv.js",
+    "bin"
+  ]
+}
